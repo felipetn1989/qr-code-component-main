@@ -55,13 +55,12 @@ body {
     justify-content: space-around;
 }
 
-.content > h1,
-.content > p {
+.content {
     text-align: center;
 }
 
 .content > h1 {
-    font-size: 1.35em;
+    font-size: 1.375em;
     font-weight: 700;
     color: var(--cor3);
 }
@@ -71,7 +70,7 @@ body {
 }
 
 .attribution {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-size: 11px; 
     text-align: center;
 }
