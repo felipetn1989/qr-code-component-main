@@ -1,80 +1,81 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 :root {
-    --cor0: hsl(0, 0%, 100%);
-    --cor1: hsl(212, 45%, 89%);
-    --cor2: hsl(220, 15%, 55%);
-    --cor3: hsl(218, 44%, 22%);
+  --cor0: hsl(0, 0%, 100%);
+  --cor1: hsl(212, 45%, 89%);
+  --cor2: hsl(220, 15%, 55%);
+  --cor3: hsl(218, 44%, 22%);
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Outfit', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Outfit", sans-serif;
 }
 
 html,
 body {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor1);
 }
 
 .card {
-    background-color: white;
-    width: 275px;
-    height: 450px;
-    padding: 20px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+  background-color: white;
+  width: 17.5rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
 }
 
 .info {
-    height: 100%;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .qrcode__pic {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 0.625rem;
 }
 
 .content {
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 0rem 0.75rem;
+  margin-bottom: 2rem;
 }
 
 .content {
-    text-align: center;
+  text-align: center;
 }
 
 .content > h1 {
-    font-size: 1.375em;
-    font-weight: 700;
-    color: var(--cor3);
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--cor3);
 }
 
 .content > p {
-    color: var(--cor2);
+  color: var(--cor2);
 }
 
 .attribution {
-    margin-top: 1.25rem;
-    font-size: 11px; 
-    text-align: center;
+  margin-top: 1.25rem;
+  font-size: 0.6875rem;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
